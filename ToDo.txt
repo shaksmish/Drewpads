@@ -1,0 +1,5 @@
+Installed git on Mac, learn how to push the changes from local machine to the Drewpads Git repository.
+Skim through the CSS and HTML section and create the project called NL times
+Build a calculator
+
+Try and do atleast 70% of the above by Mon, Dec 26th EOD.
