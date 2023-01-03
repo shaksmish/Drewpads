@@ -1,0 +1,124 @@
+/* page layout and structure */
+
+* {
+    box-sizing: border-box;
+      
+}
+
+body {
+    padding: 30px;
+}
+
+.page {
+    display: grid;
+    border: 3px solid black;
+    grid-template-areas: 
+    "header header header" 
+    "nav nav nav" 
+    "story-1 story-2 story-3" 
+    "story-4 story-5 story-5";
+    }
+    
+    
+.section-link {
+        color: gray;
+        text-decoration: none;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+.story  {
+        justify-content: center;
+        text-align: justify;
+        border: 1px solid black;
+        margin: 0;
+        padding: 10px;
+    }
+    
+.brand {
+    color: rgb(199, 109, 0);
+    font-size: 60px;
+    font-weight: normal;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    }
+ 
+.brand-header {
+    grid-area: header;
+    }
+
+
+.nav-links {
+    display: flex;
+    font-family: helvetica;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 30px;
+    text-decoration: none;
+    }
+
+
+.nav-links {
+        grid-area: nav;
+    }
+
+.story-1 {
+    grid-area: story-1;
+}
+
+.story-2 {
+    grid-area: story-2;
+}
+
+.story-3 {
+    grid-area: story-3;
+}
+
+.story-4 {
+    grid-area: story-4;
+}
+
+.story-5 {
+    grid-area: story-5;
+}
+
+
+.article-title {
+        color: rgb(199, 109, 0);  
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+.article-img {
+    display: block;
+    margin: 0 auto;
+    max-height: 250px;
+}
+
+.article-text {
+    color: black;
+    padding: 10px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.section-link:hover {
+    text-decoration: underline;
+  }
+
+.thank-brian {
+    display: block-inline;
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.thank-brian:hover {
+    text-decoration: wavy;
+}
