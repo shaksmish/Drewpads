@@ -113,12 +113,17 @@ body {
   }
 
 .thank-brian {
-    display: block-inline;
     padding: 10px;
     color: gray;
     text-decoration: none;
+    justify-content: center;
 }
 
 .thank-brian:hover {
     text-decoration: wavy;
+}
+.home-bottom {
+    padding: 10px;
+    
+    justify-content: right;
 }
