@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-header {
+    font-family: 'crimson';
+    font-size: 50px;
+    font-weight: normal;
+    justify-content: center;
+    color: rgb(107, 2, 42);
+}
+
+.page {
+    display: grid;
+    background-color: lavenderblush;
+    
+}
+
+.blog{
+    display: grid;
+    grid-template-areas: "1fr 2fr";
+
+    justify-content: center;
+    margin: 0;
+    border-left: 80px;
+    border-right: 80px;
+    column-gap: 10px;
+    
+}
+
+.blog-post-title {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 40px;
+    color: purple;
+    justify-content: center;
+}
+
+.blog-post-header {
+    font-size:30px;
+    font-style: 'Roboto';
+    justify-content: center; 
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+}
