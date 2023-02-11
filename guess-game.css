@@ -1,0 +1,17 @@
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+}
+
+.form input[type="number"] {
+    width: 200px;
+}
+
+.lastResult {
+    padding: 3px;
+    color: white;
+}
